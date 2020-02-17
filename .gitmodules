@@ -1,16 +1,16 @@
 [submodule "sources/poky"]
-	path = sources/poky
+	path = build/sources/poky
 	url = https://github.com/kraj/poky.git
 	branch = warrior
 [submodule "sources/meta-raspberrypi"]
-	path = sources/meta-raspberrypi
+	path = build/sources/meta-raspberrypi
 	url = https://github.com/agherzan/meta-raspberrypi.git
 	branch = warrior
 [submodule "sources/openembedded-core"]
-	path = sources/openembedded-core
+	path = build/sources/openembedded-core
 	url = https://github.com/openembedded/openembedded-core.git
 	branch = warrior
 [submodule "sources/meta-rpi"]
-	path = sources/meta-rpi
+	path = build/sources/meta-rpi
 	url = https://github.com/jumpnow/meta-rpi.git
 	branch = warrior

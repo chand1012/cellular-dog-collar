@@ -1,0 +1,4 @@
+bitbake.lock
+bitbake.sock
+bitbake*.log
+templateconf.cfg
