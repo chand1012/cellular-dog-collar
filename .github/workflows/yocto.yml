@@ -15,8 +15,14 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v1
 
+      - name: Checkout submodules
+        uses: textbook/git-checkout-submodule-action@master
+        with:
+          remote: true
+
       - name: Build Image
         run: |
+
           echo Starting Yocto Build process.
           source build/sources/poky/oe-init-build-env
           bitbake rpi-basic-image
