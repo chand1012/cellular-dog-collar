@@ -1,0 +1,17 @@
+name: Build Yocto Image
+on: [push]
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-18.04
+    steps:
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo bash install.sh
+
+      - name: Build Image
+        run: bash build.sh
+      

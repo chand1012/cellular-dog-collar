@@ -14,3 +14,11 @@
 	path = build/sources/meta-rpi
 	url = https://github.com/jumpnow/meta-rpi.git
 	branch = warrior
+[submodule "build/sources/meta-openembedded"]
+	path = build/sources/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = warrior
+[submodule "build/sources/meta-qt5"]
+	path = build/sources/meta-qt5
+	url = https://github.com/meta-qt5/meta-qt5.git
+	branch = warrior

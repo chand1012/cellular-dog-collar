@@ -2,3 +2,8 @@ bitbake.lock
 bitbake.sock
 bitbake*.log
 templateconf.cfg
+cache/
+tmp/
+sstate-cache/
+downloads/
+temp.txt
