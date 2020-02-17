@@ -25,5 +25,5 @@ jobs:
 
           echo Starting Yocto Build process.
           source build/sources/poky/oe-init-build-env
-          bitbake rpi-basic-image
+          bitbake console-image
       
