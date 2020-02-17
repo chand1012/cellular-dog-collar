@@ -7,8 +7,10 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
 
-      - name: Install Dependencies
+      - name: Checkout Code
         uses: actions/checkout@v1
+
+      - name: Install Dependencies
         run: |
           sudo apt-get update
           sudo bash install.sh
