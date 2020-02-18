@@ -1,24 +1,24 @@
 [submodule "sources/poky"]
-	path = build/sources/poky
+	path = mk1/build/sources/poky
 	url = https://github.com/kraj/poky.git
 	branch = warrior
 [submodule "sources/meta-raspberrypi"]
-	path = build/sources/meta-raspberrypi
+	path = mk1/build/sources/meta-raspberrypi
 	url = https://github.com/agherzan/meta-raspberrypi.git
 	branch = warrior
 [submodule "sources/openembedded-core"]
-	path = build/sources/openembedded-core
+	path = mk1/build/sources/openembedded-core
 	url = https://github.com/openembedded/openembedded-core.git
 	branch = warrior
 [submodule "sources/meta-rpi"]
-	path = build/sources/meta-rpi
+	path = mk1/build/sources/meta-rpi
 	url = https://github.com/jumpnow/meta-rpi.git
 	branch = warrior
 [submodule "build/sources/meta-openembedded"]
-	path = build/sources/meta-openembedded
+	path = mk1/build/sources/meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded.git
 	branch = warrior
 [submodule "build/sources/meta-qt5"]
-	path = build/sources/meta-qt5
+	path = mk1/build/sources/meta-qt5
 	url = https://github.com/meta-qt5/meta-qt5.git
 	branch = warrior
